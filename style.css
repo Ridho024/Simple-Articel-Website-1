@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+/* Homepage Style */
+.contain {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(234, 233, 233, 0.87);
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  /* #004225 */
+  box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.365);
+}
+
+.main-content {
+  height: 100%;
+}
+
+.main-content .col:nth-child(1) button {
+  border-radius: 0;
+  box-shadow: 3px 3px black;
+  border: 1px solid black;
+}
+
+.main-content .col:nth-child(1) button:active {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.main-content .col:nth-child(2) .card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.509);
+}
+/* Homepage Style */
+
+/* Materi Style */
+
+/* Main Container Style */
+.main-container {
+  background-color: rgba(234, 233, 233, 0.87);
+}
+
+.main-container .content div {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 1rem 2rem 1rem;
+  /* #004225 */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.365);
+}
+
+.main-container .content div p {
+  text-align: justify;
+}
+
+#info {
+  background-color: rgb(224, 224, 224);
+}
+
+/* Main Container Style */
+
+/* Materi Style */
